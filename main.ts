@@ -1,6 +1,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 // The single word grandma would text about AI.
+// Grandma's one-word verdict on AI: "skynet" — half joke, half genuine worry.
 // Writes the line to /output/entry.txt (or $MAKEFUN_OUTPUT_DIR/entry.txt).
 // No trailing newline: the gate counts every character.
 const line = "skynet";
